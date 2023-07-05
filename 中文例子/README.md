@@ -8,4 +8,6 @@
 
 - [HaxyMoly/Vicuna-LangChain: A simple LangChain-like implementation based on Sentence Embedding+local knowledge base, with Vicuna (FastChat) serving as the LLM. Supports both Chinese and English, and can process PDF, HTML, and DOCX formats of documents as knowledge base. (github.com)](https://github.com/HaxyMoly/Vicuna-LangChain)
 - [FredGoo/langchain-chinese-chat-models: 为langchain添加chatGLM-130B，星火大模型的chat models (github.com)](https://github.com/FredGoo/langchain-chinese-chat-models)
+- [API Reference — 🦜🔗 LangChain 0.0.221](https://api.python.langchain.com/en/latest/api_reference.html)
+- https://python.langchain.com/docs/
 
