@@ -11,3 +11,4 @@
 - [API Reference — 🦜🔗 LangChain 0.0.221](https://api.python.langchain.com/en/latest/api_reference.html)
 - https://python.langchain.com/docs/
 
+- [langchain中文文档](https://python.langchain.com.cn/docs/)
