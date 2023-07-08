@@ -1,5 +1,10 @@
 # langchain-learning
-langchain的学习笔记。
+langchain的学习笔记。依赖：
+
+```python
+openai==0.27.8
+langchian==0.0.225
+```
 
 **文章：**
 
@@ -16,11 +21,14 @@ langchain的学习笔记。
 - pydantic中config的一些配置.md
 - pydantic中的Serializable和root_validator.md
 - python中常用的一些魔术方法.md
+- python的typing常用的类型.md
 
 **中文例子：**
 
 - 定制中文LLM模型
+- 定制中文聊天模型
 
 **英文例子：**
 
-- 待补充
+- langchain使用openai例子.md（文本翻译）
+- openai调用chatgpt例子.md
