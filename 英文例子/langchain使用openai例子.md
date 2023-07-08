@@ -1,6 +1,6 @@
 ```python
 import openai
-openai_api_key = "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"
+openai_api_key = ""
 
 # 导入ChatOpenAI，这是LangChain对ChatGPT API访问的抽象
 from langchain.chat_models import ChatOpenAI

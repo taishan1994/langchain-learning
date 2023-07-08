@@ -1,6 +1,6 @@
 ```python
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 """用于打印模型列表
 models = openai.Model.list()

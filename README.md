@@ -32,3 +32,4 @@ langchian==0.0.225
 
 - langchain使用openai例子.md（文本翻译）
 - openai调用chatgpt例子.md
+- langchain解析结果并格式化输出.md
