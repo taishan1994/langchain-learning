@@ -73,6 +73,10 @@ messages = prompt.format_messages(text=customer_review,
 response = chat(messages)
 print(response.content)
 
-```json { "gift": true, "delivery_days": -1, "price_value": ["it is worth $20"] } ```
+```json { "gift": true, "delivery_days": -1, "price_value": ["it is worth $20"] } `
+
+# 结果解析为字典
+output_dict = output_parser.parse(response.content)
+print(output_dict.get('delivery_days'))``
 ```
 

@@ -18,6 +18,8 @@ langchian==0.0.225
 - langchain.load.serializable.py.md
 - langchain中的一些schema.md
 - langchain中是怎么调用chatgpt的接口的.md
+- langchain结构化输出背后的原理,md
+- langchain中memory的工作原理.md
 - pydantic中config的一些配置.md
 - pydantic中的Serializable和root_validator.md
 - python中常用的一些魔术方法.md
@@ -33,3 +35,5 @@ langchian==0.0.225
 - langchain使用openai例子.md（文本翻译）
 - openai调用chatgpt例子.md
 - langchain解析结果并格式化输出.md
+- langchain带有记忆的对话.md
+- langchain中使用链.md
