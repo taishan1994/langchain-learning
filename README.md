@@ -35,6 +35,7 @@ langchian==0.0.225
 #### langchain-ChatGLM
 
 - 使用api部署langchain-chatglm的基本原理.md
+- 上传文档时发生了什么.md
 
 ## **中文例子**
 
@@ -66,3 +67,11 @@ langchian==0.0.225
 - [使用LangChain做大模型开发的一些问题：来自Hacker News的激烈讨论~](https://zhuanlan.zhihu.com/p/642498874)
 
 有时候一些简单的任务，我们完全可以自己去实现相关的流程，这样**每一部分都由我们自己把控**，更易于修改。
+
+# 参考
+
+> [Introduction | 🦜️🔗 Langchain](https://python.langchain.com/docs/get_started/introduction.html)
+>
+> [API Reference — 🦜🔗 LangChain 0.0.229](https://api.python.langchain.com/en/latest/api_reference.html)
+>
+> [自定义LLM代理（带有ChatModel）custom_llm_chat_agent | 🦜️🔗 Langchain](https://python.langchain.com.cn/docs/modules/agents/how_to/custom_llm_chat_agent)
