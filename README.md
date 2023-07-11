@@ -36,6 +36,8 @@ langchian==0.0.225
 
 - 使用api部署langchain-chatglm的基本原理.md
 - 上传文档时发生了什么.md
+- 关于HuggingFaceEmbeddings.md
+- 关于InMemoryDocstore.md
 
 ## **中文例子**
 
