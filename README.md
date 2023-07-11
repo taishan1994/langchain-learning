@@ -38,6 +38,8 @@ langchian==0.0.225
 - 上传文档时发生了什么.md
 - 关于HuggingFaceEmbeddings.md
 - 关于InMemoryDocstore.md
+- 关于CharacterTextSplitter.md
+- 关于TextLoader.md
 
 ## **中文例子**
 
@@ -69,6 +71,20 @@ langchian==0.0.225
 - [使用LangChain做大模型开发的一些问题：来自Hacker News的激烈讨论~](https://zhuanlan.zhihu.com/p/642498874)
 
 有时候一些简单的任务，我们完全可以自己去实现相关的流程，这样**每一部分都由我们自己把控**，更易于修改。
+
+# 使用langchain解决复杂任务
+
+## 领域微调LLM
+
+待补充
+
+## langchain + LLM + tools
+
+待补充
+
+## langchain + LLM + 检索
+
+待补充
 
 # 参考
 
