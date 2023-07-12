@@ -41,11 +41,14 @@ langchian==0.0.225
 - 关于CharacterTextSplitter.md
 - 关于TextLoader.md
 - 关于怎么调用bing的搜索接口.md
+- 根据query得到相关的doc的原理.md
 
 ## **中文例子**
 
 - 定制中文LLM模型
 - 定制中文聊天模型
+- 使用中文splitter.md
+- 根据query查询docs.md
 
 ## **英文例子**
 

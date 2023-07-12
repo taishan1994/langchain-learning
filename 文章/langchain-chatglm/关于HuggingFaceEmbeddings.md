@@ -608,6 +608,31 @@ class MyFAISS(FAISS, VectorStore):
 
 主要是对索引里面文件的添加、删除、更新等，另外就是similarity_search_with_score_by_vector，这个是进行搜索的核心代码，这里面主要使用到的就是：self.docstore.search()和self.index.search()，其余的就不仔细看了
 
+最后还需要提一下load_local()：
+
+```python
+ @classmethod
+def load_local(cls, folder_path: str, embeddings: Embeddings) -> FAISS:
+    """Load FAISS index, docstore, and index_to_docstore_id to disk.
+
+    Args:
+        folder_path: folder path to load index, docstore,
+            and index_to_docstore_id from.
+        embeddings: Embeddings to use when generating queries
+    """
+    path = Path(folder_path)
+    # load index separately since it is not picklable
+    faiss = dependable_faiss_import()
+    index = faiss.read_index(str(path / "index.faiss"))
+
+    # load docstore and index_to_docstore_id
+    with open(path / "index.pkl", "rb") as f:
+        docstore, index_to_docstore_id = pickle.load(f)
+    return cls(embeddings.embed_query, index, docstore, index_to_docstore_id)
+```
+
+加载已经保存的faiss索引以及我们自定义的一些内容，并返回一个对象。
+
 到这里，基本就介绍完毕了，感兴趣的可以再去看看：
 
 - sentence_transformer：https://github.com/UKPLab/sentence-transformers
