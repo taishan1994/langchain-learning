@@ -243,6 +243,8 @@ class ChineseTextSplitter(CharacterTextSplitter):
         return ls
 ```
 
+sentence_size指文本分句长度。
+
 各种各种的规则，拿个例子来看看：
 
 ```python
@@ -309,7 +311,7 @@ class ChineseTextSplitter(CharacterTextSplitter):
         return ls
 
 filepath = "/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt"
-sentence_size = 20
+sentence_size = 100
 loader = TextLoader(filepath, autodetect_encoding=True)
 textsplitter = ChineseTextSplitter(pdf=False, sentence_size=sentence_size)
 docs = loader.load_and_split(textsplitter)
@@ -318,9 +320,7 @@ from pprint import pprint
 pprint(docs)
 
 """
-[Document(page_content='又一次上架了，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
- Document(page_content='这次比上次还激动，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
- Document(page_content='甚至激动到了上传了章节却不知道发出来的地步。', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+[Document(page_content='又一次上架了，这次比上次还激动，甚至激动到了上传了章节却不知道发出来的地步。', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
  Document(page_content='尴尬，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
  Document(page_content='关于新书，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
  Document(page_content='上架前成绩好得有些出乎土豆的意料，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
@@ -328,6 +328,15 @@ pprint(docs)
  Document(page_content='土豆心里还真有几分惶恐与忐忑，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
  Document(page_content='虽说曾经有人说土豆是刷出来的数据，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
  Document(page_content='对于这些留言，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='我也并未太过在意，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='别的我不知道，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='我唯一能知道的，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='就是人在做，', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='天在看！', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='究竟刷没刷，自己心中有杆秤就能衡量，问心无愧，何惧留言？', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='呵呵，在这里很感谢赐予土豆这种厚硕成绩的诸位书友，真的，很感谢你们。', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='成绩好了，责任自然也就大了，上架后，土豆会勤勤恳恳的安心码字，至于断更那种事，除了老书因为结束之时因为构思新书的原因停了一天更之外，其余的日子，倒也无甚断更记录，所以，各位朋友还请放心观看。', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'}),
+ Document(page_content='太监那种事，土豆倒还不至于弄出来。', metadata={'source': '/content/drive/MyDrive/lm_pretrained/data/test_corpus.txt'})]
 ......
 """
 ```
