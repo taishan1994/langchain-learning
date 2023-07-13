@@ -8,6 +8,10 @@ langchian==0.0.225
 
 ## **文章**
 
+**注意：由于langchain或langchain-ChatGLM的更新，可能导致部分源码和讲解的有所差异。**
+
+****
+
 - langchain组件-数据连接(data connection)
 - langchain组件-模型IO(model IO)
 - langchain组件-链(chains)
@@ -42,6 +46,8 @@ langchian==0.0.225
 - 关于TextLoader.md
 - 关于怎么调用bing的搜索接口.md
 - 根据query得到相关的doc的原理.md
+- 根据查询出的docs和query生成prompt.md
+- 根据prompt用模型生成结果.md
 
 ## **中文例子**
 
@@ -138,6 +144,22 @@ langchian==0.0.225
 LLM是整个系统的基座，目前还是有不少选择的余地的，网上开源了不少中文大语言模型，但大多都是6B/7B/13B的，要想有一个聪明的大脑，模型的参数量还是需要有保证的。
 
 以上参考：[https://mp.weixin.qq.com/s/FvRchiT0c0xHYscO_D-sdA](https://python.langchain.com.cn/docs/modules/agents/how_to/custom_llm_chat_agent)
+
+# 扩展
+
+留出一些问题以待思考：
+
+- 怎么根据垂直领域的数据选择中文大模型？1、根据各评测的排行版。2、在自己领域数据上进行评测。3、借鉴现有的垂直领域模型的选择，比如金融大模型、法律大模型、医疗大模型等。
+
+- 数据的一个答案由一系列相连的句子构成，怎么对文本进行切分以获得完整的答案？比如：
+    ```python
+    怎么能够解决失眠？
+    1、保持良好的心情；
+    2、进行适当的训练。
+    3、可适当使用药物。
+    ```
+
+    1、尽量将划分的文本的长度设置大一些。2、为了避免答案被分割，可以设置不同段之间可以重复一定的文本。3、融合查询出的多个文本的答案。
 
 # 参考
 
