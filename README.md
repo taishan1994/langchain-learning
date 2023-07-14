@@ -24,6 +24,7 @@ langchian==0.0.225
 - langchain中是怎么调用chatgpt的接口的.md
 - langchain结构化输出背后的原理,md
 - langchain中memory的工作原理.md
+- langchain怎么确保输出符合道德期望.md
 - pydantic中config的一些配置.md
 - pydantic中的Serializable和root_validator.md
 - python中常用的一些魔术方法.md
@@ -55,6 +56,7 @@ langchian==0.0.225
 - 定制中文聊天模型
 - 使用中文splitter.md
 - 根据query查询docs.md
+- mini-langchain-ChatGLM.md
 
 ## **英文例子**
 
@@ -159,7 +161,7 @@ LLM是整个系统的基座，目前还是有不少选择的余地的，网上�
     3、可适当使用药物。
     ```
 
-    1、尽量将划分的文本的长度设置大一些。2、为了避免答案被分割，可以设置不同段之间可以重复一定的文本。3、融合查询出的多个文本的答案。
+    1、尽量将划分的文本的长度设置大一些。2、为了避免答案被分割，可以设置不同段之间可以重复一定的文本。3、检索时可返回前top_k个文档。4、融合查询出的多个文本，利用LLM进行总结。
 
 - 怎么构建垂直领域的embedding？
 - 怎么存储获得的embedding？

@@ -1,5 +1,11 @@
 langchain-chglm中一个核心的步骤就是根据query获得和其相关的文本。我们一步步来看：
 
+基本使用：
+
+```python
+related_docs_with_score = vector_store.similarity_search_with_score(query, k=self.top_k)
+```
+
 在vectostores下的MyFAISS.py
 
 ```python
