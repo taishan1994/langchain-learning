@@ -1321,7 +1321,7 @@ def _call(
         return prompts, stop
 ```
 
-最后实际上使用llm的genrate_prompt来得到结果。
+最后实际上使用llm的generate_prompt来得到结果。
 
 最终处理输出：
 
