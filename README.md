@@ -59,6 +59,7 @@ langchian==0.0.225
 - 使用中文splitter.md
 - 根据query查询docs.md
 - mini-langchain-ChatGLM.md
+- 打造简易版类小爱同学助手.md
 
 ## **英文例子**
 
@@ -68,6 +69,10 @@ langchian==0.0.225
 - langchain带有记忆的对话.md
 - langchain中使用不同链.md
 - langchain基于文档的问答md
+
+## prompt工程.md
+
+一个优化的prompt对结果至关重要，感兴趣的可以去看看这个，
 
 ## **langchain可能存在一些问题**
 
