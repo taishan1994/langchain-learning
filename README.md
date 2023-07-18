@@ -27,6 +27,8 @@ langchian==0.0.225
 - langchain怎么确保输出符合道德期望.md
 - langchain中路由链LLMRouterChain的原理.md
 - langchain中的EmbeddingRouterChain原理.md
+- langchain集成GPTCache.md
+- langchain集成Mivus向量数据库.md
 - pydantic中config的一些配置.md
 - pydantic中的Serializable和root_validator.md
 - python中常用的一些魔术方法.md
