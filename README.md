@@ -29,10 +29,14 @@ langchian==0.0.225
 - langchain中的EmbeddingRouterChain原理.md
 - langchain集成GPTCache.md
 - langchain集成Mivus向量数据库.md
+- langchain中的StreamingStdOutCallbackHandler原理.md
 - pydantic中config的一些配置.md
 - pydantic中的Serializable和root_validator.md
 - python中常用的一些魔术方法.md
 - python的typing常用的类型.md
+- python中functools的partial的用法.md
+- python中inspect的signature用法.md
+- python中args和kwargs.md
 
 目前基于langchain的中文项目有两个：
 
@@ -62,6 +66,7 @@ langchian==0.0.225
 - 根据query查询docs.md
 - mini-langchain-ChatGLM.md
 - 打造简易版类小爱同学助手.md
+- chatglm实现agent控制.md
 
 ## **英文例子**
 
