@@ -43,6 +43,7 @@ langchian==0.0.225
 - python中functools的partial的用法.md
 - python中inspect的signature用法.md
 - python中args和kwargs.md
+- [我为什么放弃了 LangChain？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/645358531)
 
 目前基于langchain的中文项目有两个：
 
@@ -63,7 +64,6 @@ langchian==0.0.225
 - 根据query得到相关的doc的原理.md
 - 根据查询出的docs和query生成prompt.md
 - 根据prompt用模型生成结果.md
-- [我为什么放弃了 LangChain？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/645358531)
 
 ## **中文例子**
 
@@ -86,6 +86,7 @@ langchian==0.0.225
 - langchain中使用不同链.md
 - langchain基于文档的问答md
 - [使用GGML和LangChain在CPU上运行量化的llama2](https://zhuanlan.zhihu.com/p/644701608)
+- [本地部署开源大模型的完整教程：LangChain + Streamlit+ Llama - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/639565332)
 
 ## prompt工程.md
 
