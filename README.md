@@ -6,6 +6,10 @@ openai==0.27.8
 langchian==0.0.225
 ```
 
+和langchain相类似的一些工具：
+
+- [danswer-ai/danswer: Ask Questions in natural language and get Answers backed by private sources. Connects to tools like Slack, GitHub, Confluence, etc.](https://github.com/danswer-ai/danswer)
+
 ## **文章**
 
 **注意：由于langchain或langchain-ChatGLM的更新，可能导致部分源码和讲解的有所差异。**
@@ -59,6 +63,7 @@ langchian==0.0.225
 - 根据query得到相关的doc的原理.md
 - 根据查询出的docs和query生成prompt.md
 - 根据prompt用模型生成结果.md
+- [我为什么放弃了 LangChain？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/645358531)
 
 ## **中文例子**
 
@@ -70,6 +75,7 @@ langchian==0.0.225
 - 打造简易版类小爱同学助手.md
 - chatglm实现agent控制.md
 - [向量检索增强chatglm生成-结合ES](https://zhuanlan.zhihu.com/p/644619003)
+- [知识图谱抽取LLM - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/645509983)
 
 ## **英文例子**
 
