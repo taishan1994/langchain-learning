@@ -64,6 +64,7 @@ langchian==0.0.225
 - 根据query得到相关的doc的原理.md
 - 根据查询出的docs和query生成prompt.md
 - 根据prompt用模型生成结果.md
+- [ChatGPT小型平替之ChatGLM-6B本地化部署、接入本地知识库体验 | 京东云技术团队](https://juejin.cn/post/7246408135015415868)
 
 ## **中文例子**
 
