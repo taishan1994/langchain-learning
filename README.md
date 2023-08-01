@@ -91,7 +91,9 @@ langchian==0.0.225
 
 ## prompt工程.md
 
-一个优化的prompt对结果至关重要，感兴趣的可以去看看这个，
+一个优化的prompt对结果至关重要，感兴趣的可以去看看这个。
+
+[yzfly/LangGPT: LangGPT: Empowering everyone to become a prompt expert!🚀 Structured Prompt，结构化提示词。 (github.com)](https://github.com/yzfly/LangGPT)：构建结构化的高质量prompt
 
 ## **langchain可能存在一些问题**
 
